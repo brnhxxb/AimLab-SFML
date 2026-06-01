@@ -123,7 +123,7 @@ void Target::draw(sf::RenderWindow& window) const {
 
     sf::RectangleShape barBg({barW, TARGET_HP_BAR_H});
     barBg.setPosition({barX, barY});
-    barBg.setFillColor(sf::Color(30, 30, 40, 200));
+    barBg.setFillColor(sf::Color(120, 90, 100, 200));
     barBg.setOutlineColor(sf::Color(60, 60, 80));
     barBg.setOutlineThickness(1.f);
     window.draw(barBg);

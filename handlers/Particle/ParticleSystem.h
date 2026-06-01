@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 
+//отвечает за визуал
 struct Particle {
     sf::Vector2f pos;
     sf::Vector2f vel;

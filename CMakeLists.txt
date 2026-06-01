@@ -4,6 +4,7 @@ project(AimTrainer)
 # Включаем C++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_compile_options("/utf-8")
 
 #путь к vcpkg
 set(VCPKG_ROOT_DIR "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows")

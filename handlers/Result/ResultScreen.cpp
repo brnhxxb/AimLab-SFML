@@ -84,7 +84,8 @@ void ResultScreen::draw() {
         {"Точность",       accStr.str(),                   sf::Color(100,200,255)  },
         {"Выстрелов",      std::to_string(stats.shots),   COL_WHITE               },
         {"Попаданий",      std::to_string(stats.hits),    COL_HP_FULL             },
-        {"Промахов",       std::to_string(stats.misses),  COL_DANGER              },
+        {"Промахов",      std::to_string(stats.misses),  COL_DANGER              },
+        {"Штраф очки",   "-"+std::to_string(stats.penaltyPts), COL_PENALTY             },
         {"Средняя реакция",reactStr.str(),                 sf::Color(255,200,80)   },
         {"Лучшая реакция", bestStr.str(),                  COL_ACCENT              },
     };
